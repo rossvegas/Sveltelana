@@ -38,8 +38,9 @@ I recommend VSCode for editing with the 'Svelte for VSCode extension'
 ## Developing
 
 You can find resources for svelte and sveltekit 
-https://svelte.dev/
-https://kit.svelte.dev/
+
+- https://svelte.dev/
+- https://kit.svelte.dev/
 
 ## Make your own app
 
