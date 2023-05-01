@@ -32,9 +32,8 @@ export class Store {
 	}
 
 	//This is an example of having to lookup related objects by id to get some information. This one uses the inventory id 
-	//to look up the inventory item and get the price off if, we also demonstrate adding to the total before setting the 
-	//UI bound totalPrice variable, setting the variable at the end may give better performance because we are setting the 
-	//bound variable only once
+	//to look up the inventory item and get the price of it, we also demonstrate adding to the total before setting the 
+	//UI bound totalPrice variable, setting the variable at the end may give better performance because we are setting it only once
 	SetTotalPrice() {
 		let total: number = 0;
 		this.order.forEach(item => {
